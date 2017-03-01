@@ -4,24 +4,24 @@ import java.io.Serializable;
 
 public class Cliente implements Serializable {
 	private static final long serialVersionUID = -5786987210882488279L;
-	private String nome;
-	private String endereco;
+	private String nomessss;
+	private String enderecosss;
 	private int idade;
 
 	public String getNome() {
 		return nome;
 	}
 
-	public void setNome(String nome) {
+	public void setNomesss(String nome) {
 		this.nome = nome;
 	}
 
-	public String getEndereco() {
+	public String getEnderecosss() {
 		return endereco;
 	}
 
-	public void setEndereco(String endereco) {
-		this.endereco = endereco;
+	public void setEnderecosss(String endereco) {
+		this.enderecosss = endereco;
 	}
 
 	public int getIdade() {
@@ -30,5 +30,9 @@ public class Cliente implements Serializable {
 
 	public void setIdade(int idade) {
 		this.idade = idade;
+	}
+	
+	public String marcosVaiTomarNoCu(String esseTaMais) {
+		return "Marcos otário";
 	}
 }
