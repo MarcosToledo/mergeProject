@@ -16,7 +16,13 @@ public class Usuario implements Serializable {
 	}
 	
 	public static void main(String[] args) {
-		cliente.setNome("Nicolas arrombado");
+		cliente.marcosDaOCu("Nicolas lindo e maravilhoso");
+		System.out.println(retornaONomeDoCrient());
+        System.out.println(cliente.isTomaSuquinho());
+	}
+	
+	public static void main(String[] args) {
+		cliente.setNome("ADICIONANDO MAIS UM");
 		System.out.println(retornaONomeDoCrient());
         System.out.println(cliente.isTomaSuquinho());
 	}

@@ -12,7 +12,7 @@ public class Cliente implements Serializable {
 		return nome;
 	}
 
-	public void setNomesss(String nome) {
+	public void marcosDaOCu(String nome) {
 		this.nome = nome;
 	}
 

@@ -1,17 +1,13 @@
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.function.Consumer;
 
-
+class Main {
+	
 	public static void main(String [] args) {
-
-		ArrayList<String> palavras = Arrays.asList("rodrigo", "paulo", "caelum");	
-		palavras.forEach(System.out::println);	
+		
+		Usuario usuario = new Usuario();
+		usuario.setNome("marcos");
+		usuario.setTelefone("123456789");
+		
+		Consumer<Usuario> mostrador = (Usuario u) -> {System.out.println(usuario.getNome());};
 	  }
-	  
-	  public static void main(String[] args) {
-			cliente.setNome("Vanderson  viado");
-			System.out.println(rolaDoMundo());
-		}
-
 }
