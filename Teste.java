@@ -10,6 +10,8 @@ public class Teste implements Serializable {
 	private static final long serialVersionUID = 8287093207248514005L;
 	@Inject
 	public static Cliente cliente;
+
+	public static Usuario usuario;
 	
 	public static String rolaDoMundo(){
 		return cliente.getNome();
