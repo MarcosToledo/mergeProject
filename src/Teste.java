@@ -9,16 +9,16 @@ import javax.enterprise.context.Dependent;
 public class Teste implements Serializable {
 	private static final long serialVersionUID = 8287093207248514005L;
 	@Inject
-	public static Cliente cliente;
+	public static Cliente criente;
 
 	public static Usuario usuario;
 	
 	public static String rolaDoMundo(){
-		return cliente.getNome();
+		return criente.getNome();
 	}
 	
 	public static void main(String[] args) {
-		cliente.setNome("Vanderson  viado");
+		criente.setNome("Marcos, menino de São Caetano");
 		System.out.println(rolaDoMundo());
 	}
 	
