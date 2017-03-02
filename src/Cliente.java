@@ -1,11 +1,12 @@
 import java.io.Serializable;
 
 public class Cliente implements Serializable {
-	private static final long serialVersionUID = -5786987210882488279L;
-	private String nomessss;
-	private String enderecosss;
-	private int idade;
+	protected static final long serialVersionUID = -5786987210882488279L;
+	protected String nomessss;
+	protected String enderecosss;
+	protected int idade;
 	public boolean nicolasViado;
+	protected boolean tomaSuquinho;
 
 	public String getNome() {
 		return nome;
@@ -41,5 +42,13 @@ public class Cliente implements Serializable {
 	
 	public String marcosVaiTomarNoCu(String esseTaMais) {
 		return "Marcos otário";
+	}
+	
+	public String getARROMBADO() {
+		return TUDOUMBANDODEARROMADO;
+	}
+	
+	public boolean isTomaSuquinho(){
+		return this.nome.toLowerCase().contains("nicolas") : true ? false;
 	}
 }
