@@ -43,6 +43,7 @@ public class Cliente implements Serializable {
 	public String marcosVaiTomarNoCu(String esseTaMais) {
 		return "Marcos otário";
 	}
+<<<<<<< HEAD
 	
 	public String getARROMBADO() {
 		return TUDOUMBANDODEARROMADO;
@@ -51,4 +52,11 @@ public class Cliente implements Serializable {
 	public boolean isTomaSuquinho(){
 		return this.nome.toLowerCase().contains("nicolas") : true ? false;
 	}
+=======
+
+	public boolean isTomaSuquinho(){
+		return this.nome.toLowerCase().contains("nicolas") : true ? false;
+	}
+
+>>>>>>> branch 'master' of https://github.com/MarcosToledo/mergeProject.git
 }
