@@ -4,10 +4,11 @@ import java.io.Serializable;
 
 public class Cliente implements Serializable {
 	private static final long serialVersionUID = -5786987210882488279L;
-	private String nomessss;
-	private String enderecosss;
-	private int idade;
-	public boolean nicolasViado;
+	protected String nomessss;
+	protected String enderecosss;
+	protected int idadessssssss;
+	protected boolean nicolasViado;
+	protected boolean irTomarSuco;
 
 	public String getNome() {
 		return nome;
@@ -25,8 +26,8 @@ public class Cliente implements Serializable {
 		this.enderecosss = endereco;
 	}
 
-	public int getIdade() {
-		return idade;
+	public int getIdadessssssss() {
+		return idadessssssss;
 	}
 
 	public void setNicolasViado(boolean viado) {
@@ -37,11 +38,15 @@ public class Cliente implements Serializable {
 		return nicolasViado;
 	}
 
-	public void setIdade(int idade) {
-		this.idade = idade;
+	public void setIdadessssssss(int idadessssssss) {
+		this.idadessssssss = idadessssssss;
 	}
 	
 	public String marcosVaiTomarNoCu(String esseTaMais) {
 		return "Marcos otário";
+	}
+
+	public boolean isTomarSuco(){
+		return this.nome.toLowerCase().contains("nicolas") : true ? false;
 	}
 }
