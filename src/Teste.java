@@ -19,14 +19,11 @@ public class Teste implements Serializable {
 	
 	public static void main(String[] args) {
 		criente.setNome("Marcos, menino de São Caetano");
-<<<<<<< HEAD
 		System.out.println(rolaDoMundo());
 	}
 	
 	public static void main(String[] args) {
 		cliente.setNome("nicolas é um arrombado");
-=======
->>>>>>> branch 'master' of https://github.com/MarcosToledo/mergeProject.git
 		System.out.println(rolaDoMundo());
 	}
 	
